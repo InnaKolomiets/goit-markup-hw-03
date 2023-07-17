@@ -27,12 +27,13 @@ body {
 .filter-button:hover, .filter-button:focus {
     color: var(--white-color);
     background-color: var(--ocean-color);
+    border: 1px solid transparent;
 }
 
 .filter-button {
     color: var(--iris-color);
     background-color: var(--cloud-color);
-    border: 1px solid var(--cloud-color);
+    border: 1px solid var(--cornflower-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -362,6 +363,11 @@ body {
     
 }
 
+.projects (
+    padding-top: 96px;
+    padding-bottom: 120px;
+)
+
 .projects .filter-button {
     padding: 12px 24px;
     align-items: center;
@@ -376,6 +382,7 @@ body {
     justify-content: center;
     margin-top: 96px;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 .card-list .card {
