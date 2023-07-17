@@ -80,6 +80,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .directions .list {
@@ -153,8 +154,6 @@ body {
     line-height: 1.2;
     color: var(--main-text-color);
     gap: 8px;
-    margin-top: 32px;
-    
 
 }
 .values {
@@ -185,21 +184,22 @@ body {
 
 .people {
     margin-top: 240px;
-    margin-bottom: 72px;
     background: var(--white-color);
     display: flex;
     gap: 24px;
+    padding: 120px 0;
 }
 
 .people .list {
     gap: 24px;
 }
 
+.people .people-info {
+    padding: 32px 16px  
+}
 
 .people .people-item {
-    margin-bottom: 120px;
     display: inline-flex;
-    padding-bottom: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -212,10 +212,6 @@ body {
 
 }
 
-.people .item-title {
-    margin-top: 32px;
-    margin-bottom: 8px;
-}
 
 .block-title {
     font-family: "Roboto", sans-serif;
