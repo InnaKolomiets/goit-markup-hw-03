@@ -250,7 +250,7 @@ body {
     width: 100%;
     height: 312px;
     flex-shrink: 0;
-    padding-top: 101.5px;
+    padding: 100px 0;
     
 }
 
@@ -260,6 +260,8 @@ body {
 
 .footer .logo-link {
     margin-left: 156px;
+    display: inline-block;
+    margin-bottom: 16px;
 
     
 }
