@@ -400,6 +400,7 @@ body {
     flex-shrink: 0;
     border: 1px solid var(--cornflower-color);
     background: var(--white-color);
+    width: calc((100% - 24px) / 3);
     
 }
 
@@ -412,4 +413,5 @@ body {
     gap: 8px;
     align-self: stretch;
     border: 1px solid var(--cornflower-color);
+    border-top: none;
 }
