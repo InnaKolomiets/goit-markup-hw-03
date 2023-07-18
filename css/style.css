@@ -187,7 +187,6 @@ body {
 }
 
 .values .values-menu {
-    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -195,6 +194,7 @@ body {
     display: flex;
     width: 264px;
     flex-direction: column;
+    gap: 24;
 }
 
 .list-text {
