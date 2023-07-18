@@ -72,7 +72,7 @@ body {
 }
 .link.logo {
     color: var(--iris-color);
-    margin-bottom: 16px;
+    
 }
 .link {
     text-decoration: none;
@@ -187,6 +187,7 @@ body {
 }
 
 .values .values-menu {
+    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
