@@ -282,6 +282,7 @@ body {
 
 .footer .logo.link {
     display: inline-block;
+    margin-bottom: 16px;
 
     
 }
@@ -289,7 +290,6 @@ body {
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 21px;
     display: flex;
     width: 264px;
     flex-direction: column;
