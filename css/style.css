@@ -413,6 +413,7 @@ body {
     flex-shrink: 0;
     border: 1px solid var(--cornflower-color);
     background: var(--white-color);
+    width: calc((100% - 48px) / 3);
     
 }
 
