@@ -272,7 +272,7 @@ body {
     color: var(--cloud-color);
 }
 
-.footer .logo-link {
+.footer .logo .link {
     margin-left: 156px;
     display: inline-block;
     margin-bottom: 16px;
