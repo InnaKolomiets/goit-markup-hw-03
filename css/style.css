@@ -273,18 +273,15 @@ body {
     height: 312px;
     flex-shrink: 0;
     padding: 100px 0;
-    
 }
 
 .footer .logo span {
     color: var(--cloud-color);
 }
 
-.footer .logo.link {
+.footer .logo {
     display: inline-block;
     margin-bottom: 16px;
-
-    
 }
 
 .footer-text {
