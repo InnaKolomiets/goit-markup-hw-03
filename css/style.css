@@ -13,9 +13,12 @@ h1, h2, h3, p {
 }
 ul {
     padding: 0;
+    margin: 0;
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -181,8 +184,6 @@ body {
 
 }
 .values {
-    margin-top: 120px;
-    margin-bottom: 120px;
     padding: 120px 0;
 }
 .values .item-title {
@@ -218,7 +219,6 @@ body {
 }
 
 .people {
-    margin-top: 240px;
     background: var(--white-color);
     display: flex;
     gap: 24px;
@@ -295,10 +295,9 @@ body {
 }
 
 .container { 
-    padding-left: 0; 
-    padding-right: 0;
-    margin-left: 156px;
-    margin-right: 156px;
+    padding: 0 15px; 
+    max-width: 1158px;
+    margin: 0 auto;
 }
 
 .footer .container {
@@ -343,10 +342,8 @@ body {
 .header .container {
     display: inline-flex;
     flex-direction: row;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .action .container {
@@ -395,7 +392,6 @@ body {
 .projects .filter-list {
     display: flex;
     justify-content: center;
-    margin-top: 96px;
     gap: 24px;
     margin-bottom: 72px;
 }
