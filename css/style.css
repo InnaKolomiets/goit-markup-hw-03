@@ -86,6 +86,7 @@ body {
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
+    margin: 0;
 }
 
 .directions {
