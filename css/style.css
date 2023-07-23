@@ -217,7 +217,7 @@ body {
 }
 
 .people {
-    background: var(--white-color);
+    background: var(--cloud-color);
     display: flex;
     gap: 24px;
     padding: 120px 0;
