@@ -107,6 +107,7 @@ body {
     color: var(--contact-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 400;
 }
 
 .contact-link:hover, .contact-link:focus {
